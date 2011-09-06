@@ -19,10 +19,25 @@ The tactile board is connected to a microcontroller via a 20-pin connector. Each
 
 Varying levels of sensation can be created through the use of PWM on the column lines. 
 
+Design
+--------------
+
+All schematics and board layouts were created with a free version of EagleCAD. 
+
+BOM (Tactile board)
+----------------
+
+* 110x NPN surface mount transistors (SOT-23, BEC)
+* 20x  PNP surface mount transistors (SOT-23, BEC)
+* 100x contact pins (suitable for being pressed against the skin)
+* 1x 2-pin, 90 degree header
+* 1x 20-pin, 90 degree header
+
 TODO
 -------------
 
 * Only the power board is currently designed, a companion board with a microcontroller and Voltage generation circuitry is TBD
 * Board has yet to be fabricated, it may not work
 * 100V may not be enough to form a reliable sensation
-
+* SAFETY FEATURES!!!
+* Determine best values for R1/R2 (13k is a rough guess)
