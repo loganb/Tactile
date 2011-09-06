@@ -7,6 +7,11 @@ Introduction
 Tactile is a electic haptics device designed to provide computer-controlled sensory input. The power board contains 10x10 grid of pins designed to be pressed against the skin. Via a 20-pin ribbon cable, each pin may be independently activated to apply a gentle but detectable electric shock. Through this technique, it is possible to project a 100 pixel "image" onto the surface of the skin. 
 
 
+WARNING
+-------------
+
+This design is untested and may be dangerous! Don't build it, don't use it, don't think about it unless you know what you're doing, know what the risks are, and know how to avoid them! 
+
 Using
 ------------
 
